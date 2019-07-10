@@ -16,9 +16,15 @@
     "lodash": "latest",
     "mocha": "^2.3.3",
     "spec-xunit-file": "0.0.1-3",
-    "wd": "latest"
+    "wd": "latest",
+    "snyk": "^1.192.4"
   },
   "engines": {
     "node": "0.10.38"
-  }
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
