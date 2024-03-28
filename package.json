@@ -3,7 +3,7 @@
   "version": "0.1.5",
   "description": "tests",
   "dependencies": {
-    "express": "~4.12.0",
+    "express": "~4.19.2",
     "chai": "latest",
     "chai-as-promised": "latest",
     "colors": "latest",
